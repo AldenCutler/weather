@@ -1,0 +1,172 @@
+body {
+    font-family: Poppins, sans-serif;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    background: skyblue;
+    border-radius: 1rem;
+    width: 75vw;
+    
+}
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+input {
+    margin-right:1rem;
+    font-size: 1rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+
+
+    font-size: 1.5rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+.city {
+    margin-right: 5rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.fore-temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+.current {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-family: Poppins, sans-serif;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+#today-sunrise {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vw;
+}
+
+#today-sunset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vw;
+}
+
+#today-temp-max {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vw;
+}
+
+#today-temp-min {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vw;
+}
+
+#current-weather {
+    scale: 2.5;
+    height: 2rem;
+    padding: 2rem;
+}
+
+#today-temp {
+    height: 4rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.today {
+    background: #f5f5f5;
+    border-radius: 1rem;
+    padding: 2vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.today-temps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-card {
+    display: flex;
+    flex-direction: column;
+    width: 7.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    height: 10rem;
+}
+
+#card {
+    scale: 2;
+    padding-top: 1rem;
+}
+
+#fore-max {
+    font-size: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+#fore-min {
+    font-size: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+#catch {
+    text-align: center;
+}
